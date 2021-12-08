@@ -16,8 +16,8 @@
     </header>
     <main>
         <aside>
-            <h3>Авторизация</h3>
-            <Form>
+            <Form class="login"> 
+                <span>Авторизация</span><br>
                 <input id="name" type="text" placeholder="Введите логин">
             <label for="name">Логин</label><br>
             <input id="passw" type="password" placeholder="Введите пароль">
@@ -26,10 +26,10 @@
             <input type="reset" value="Отмена">
             </Form>
         </aside>
-        <p><strong> <em>Игнатьев Сергей Викторович</em> </strong></p>
-        <img src="image/Ava.jpg" alt="Фото" width="150">
-        <section>
-            <h2 class="hobby"> Мои увлечения</h2>
+        <p class="name"><strong>Игнатьев Сергей Викторович</strong></p>
+        <div class="ava2"><img src="./image/Ava.jpg" alt="Фото" width="150" class="ava" ></div> 
+        <section class="hobby">
+            <h2 > Мои увлечения</h2>
             <ul>
                 <li>Рыбалка: 
                     <ol>
@@ -53,7 +53,7 @@
                 </li>
             </ul>
         </section>
-        <section>
+        <section class="education">
             <h2> <strong>Мое образование</strong> </h2>
             <ol type="I">
                 <li>Средняя школа №1 г.Городка</li>
@@ -63,7 +63,7 @@
         </section> 
             
     </main>
-    <footer>
+    <footer class="footer">
         <p>
             Обратная связь:
         </p>
